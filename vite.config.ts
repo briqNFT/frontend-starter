@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
-import svgLoader from 'vite-svg-loader'
+import svgLoader from 'vite-svg-loader';
 import path from 'path';
 
 svgLoader({
@@ -32,5 +32,6 @@ export default defineConfig(({ mode }) => ({
         globals: true,
         environment: 'jsdom',
     },
-    plugins: [vue(), injectNpmVersion(), svgLoader()],
+    // Uncomment to see rollup script breakdowns when building.
+    plugins: [vue(), injectNpmVersion(), svgLoader()], //, analyze({ showExports: true }), visualizer({ template: "treemap", sourcemap: true })],
 }));
