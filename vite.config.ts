@@ -21,5 +21,9 @@ export default defineConfig(({ mode }) => ({
         sourcemap: true,
         minify: mode === 'production',
     },
+    test: {
+        globals: true,
+        environment: 'jsdom',
+    },
     plugins: [vue(), injectNpmVersion()],
 }));
