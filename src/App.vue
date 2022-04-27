@@ -9,12 +9,13 @@
 </template>
 
 <style>
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
+html {
+    --color-base: 33 33 60;
+    --color-contrast: 200 33 33;
+    @apply text-base dark:bg-black dark:text-white;
+}
+
+h1 {
+    @apply text-center;
 }
 </style>
