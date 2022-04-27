@@ -1,4 +1,7 @@
 {
+    "search.exclude": {
+        "src/assets/fontawesome6/**": true
+    },
     "eslint.validate": [
         "javascript",
         "javascriptreact",
