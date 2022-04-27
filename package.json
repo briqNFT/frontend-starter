@@ -10,7 +10,8 @@
         "coverage": "vitest run --coverage"
     },
     "dependencies": {
-        "vue": "^3.2.25"
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.13"
     },
     "devDependencies": {
         "@types/node": "^17.0",
