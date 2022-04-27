@@ -12,7 +12,7 @@
         "esModuleInterop": true,
         "lib": ["esnext", "dom"],
         "skipLibCheck": true,
-        "types": ["vite/client", "vitest/globals"],
+        "types": ["vite/client", "vitest/globals", "vite-svg-loader"],
         "paths": {
             "@/*": ["./src/*"]
         }
