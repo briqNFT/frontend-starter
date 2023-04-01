@@ -29,5 +29,5 @@ Assuming you are running on an empty git repo, simply:
 - ESLint
 
 Then use the "Take Over" mode to get `.vue` support in TS: 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette (hit ctrl + shift + p, or command + shift + p on apple), look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
+1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette (hit ctrl + shift + p, or command + shift + p on mac), look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
 2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
